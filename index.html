@@ -2777,7 +2777,7 @@ destinationImageData = canvas_context.getImageData(0, 0, canvas.width, canvas.he
     class Owners {
         constructor(n){
             this.fac = n
-            this.cash = [3, 3, 3, 3]
+            this.cash = [12, 12, 0, 5]
         }
     }
     class Avey {
@@ -3979,7 +3979,7 @@ let cf = 0
                         if(this.grid[t][k].castle == 1){
                             
                                   this.submode = -1
-//                             this.grid[t][k].redarmy.push(new Giy(0))
+                             this.grid[t][k].redarmy.push(new Giy(0))
                         }
                         
                         
@@ -3998,7 +3998,7 @@ let cf = 0
                         }else{
                         if(this.grid[t][k].castle == 1){
                                   this.submode = -1
-//                             this.grid[t][k].greenarmy.push(new Giy(0))
+                             this.grid[t][k].greenarmy.push(new Giy(0))
                         }
                         
                         for(let r = 0;r<this.grid[t][k].improvements.length;r++){
